@@ -1,41 +1,43 @@
 import {Link} from 'react-router-dom';
+import HamburgerMenu from './HamburgerMenu';
 
 const Navbar= () => {
-    return (
-        <nav className=" rounded-lg shadow-sm mb-4 sticky top-0 z-50">
+    return ( 
+        <nav className="sticky top-0 z-50 bg-sky-200 shadow-sm rounded-lg mb-4 ">
             <div className="max-w-7xl mx-auto px-2 sm:px-3 lg:px-6 bg-sky-200 text-gray-800">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
+                        <HamburgerMenu />
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 <Link
                                     to="/"
                                     className=" group px-3 py-2 rounded-md text-sm font-medium relative overflow-hidden"
                                 >
-                                    <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-300 rounded-md"></span>
+                                    <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out rounded-md"></span>
                                     <span className="relative group-hover:text-white">Home</span>
                                 </Link>                                
                                 <Link
                                     to="/about"
                                     className=" group px-3 py-2 rounded-md text-sm font-medium relative overflow-hidden"
                                 >
-                                    <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-300 rounded-md"></span>
+                                    <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out rounded-md"></span>
                                     <span className="relative group-hover:text-white">About</span>
                                 </Link>                                
                                 <Link
                                     to="/project"
                                     className=" group px-3 py-2 rounded-md text-sm font-medium relative overflow-hidden"
                                 >
-                                    <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-300 rounded-md"></span>
+                                    <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out rounded-md"></span>
                                     <span className="relative group-hover:text-white">Project</span>
                                 </Link>                                
-                                <Link
+                                {/* <Link
                                     to="/contact"
                                     className=" group px-3 py-2 rounded-md text-sm font-medium relative overflow-hidden"
                                 >
                                     <span className="absolute inset-0 bg-gradient-to-r from-sky-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition duration-300 rounded-md"></span>
                                     <span className="relative group-hover:text-white">Contact</span>
-                                </Link>                                
+                                </Link>                                 */}
                             </div>  
                         </div>
                     </div>

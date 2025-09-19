@@ -9,7 +9,7 @@ const Layout = React.lazy(() => import("./component/DashboardLayout"))
 const Dashboard = React.lazy(() => import("./pages/Dashboard"))
 const Project = React.lazy(() => import("./pages/Project"))
 const About = React.lazy(() => import("./pages/About"))
-const Contact = React.lazy(() => import("./pages/Contact"))
+// const Contact = React.lazy(() => import("./pages/Contact"))
 
 function App() {
   const location = useLocation()
@@ -31,7 +31,7 @@ function App() {
               <Route index element={<PageWrapper><Dashboard /></PageWrapper>} />
               <Route path="/project" element={<PageWrapper><Project /></PageWrapper>} />
               <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
-              <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
+              {/* <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} /> */}
             </Route>
           </Routes>
         </AnimatePresence>
