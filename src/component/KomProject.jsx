@@ -20,7 +20,7 @@ const projects = [
     title: "CV Web App",
     tech: ["React", "Tailwind", "Framer Motion"],
     image: workLandscape,
-    link: "https://your-project-link.com",
+    link: "https://satria-nb-cv-git-main-hashasin40s-projects.vercel.app",
     bg: [340, 10],
   },
   {
