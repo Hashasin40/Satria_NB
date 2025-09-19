@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Background from '../assets/background.jpg';
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import CursorTrail from "./CursorTrail";
 
 const DashboardLayout = () => {
