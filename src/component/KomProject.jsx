@@ -20,14 +20,14 @@ const projects = [
     title: "CV Web App",
     tech: ["React", "Tailwind", "Framer Motion", "Firebase",],
     image: workLandscape,
-    link: "https://satria-nb-cv-git-main-hashasin40s-projects.vercel.app",
+    link: "https://satrianbcv.vercel.app/",
     bg: [340, 10],
   },
   {
     title: "Chill App",
     tech: ["React", "Bootstrap", "MockApi", "Zustand",],
     image: chillApp,
-    link: "https://new-chill-1-0-git-main-hashasin40s-projects.vercel.app",
+    link: "https://new-chill-1-0.vercel.app/",
     bg: [205, 245],
   },
   // Tambah project lainnya...
